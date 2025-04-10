@@ -28,14 +28,15 @@ header .contenedor{/*header .contenedor: Define un contenedor para la cabecera c
     position: relative;
     height: 800px;
 }
-header.menu{
+header .menu{
     width: 100%;
     text-align: right;
+    color: #f2f2f2;
   
 }
 /*header .menu a: Estilo de los enlaces del menú, con color blanco y efecto de hover para subrayar y cambiar el color al pasar el ratón*/
 /* en este header menu de cambia el menu de acerca etc,  cambios de color, cosicion tamaño*/
-header.menu a {
+header .menu a {
     color: white;
     font-size: 20px;
     font-weight: 300;
@@ -298,20 +299,32 @@ p.acerca-de  {
     font-weight: bold;
 }
 /*----------------------------logos--------------------*/
-.logo {
-    flex: 1 1 150px;  /* Permite que los logos crezcan o se encojan */
-    text-align: center;
+.logo-mover {
+    display: flex;              /* Usamos flexbox para alinearlos en una fila */
+    justify-content: space-between; /* Espaciado entre logos (opcional) */
+    align-items: center;        /* Centra verticalmente */
+    flex-wrap: nowrap;          /* Para que estén en una sola fila */
+    gap: 20px;                  /* Espacio entre logos */
+    overflow-x: auto;           /* Scroll horizontal si hay muchos logos */
+    padding: 10px;
 }
+
+.logo {
+    flex: 1;                    /* Cada logo ocupa el mismo espacio */
+    max-width: 150px;           /* Tamaño máximo igual para todos */
+    min-width: 100px;           /* Tamaño mínimo igual para todos */
+}
+
 .logo img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;                /* Ocupa todo el ancho del contenedor .logo */
+    height: auto;               /* Mantiene proporción */
     display: block;
-    margin: 0 auto;
+
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-/*
+/**
 background:
 
 Propósito: Controla el fondo de un elemento. Se puede usar para añadir colores, imágenes o patrones como fondo
