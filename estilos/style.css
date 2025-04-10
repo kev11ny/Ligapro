@@ -1,0 +1,357 @@
+/* DAREMOS COLOR Y FORMA A LA PAGINA WEB*/
+/*margin: 0; padding: 0; } para eliminar márgenes y rellenos por defecto de todos los elementos.*/
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+/*Estilo de la fuente*/
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/* EMPEZAREMOS A DAR FORMA A LA CABECERA*/
+header{ /*header: Se configura un fondo con imagen*/
+    width: 100%;
+    background:url(../logos/fondo\ logot.png) rgb(129, 124, 124, 0.008) ; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+/*aqui la imagen tiene un efecto para que se quede quieto*/
+header .contenedor{/*header .contenedor: Define un contenedor para la cabecera con una altura específica.*/
+    position: relative;
+    height: 800px;
+}
+header.menu{
+    width: 100%;
+    text-align: right;
+  
+}
+/*header .menu a: Estilo de los enlaces del menú, con color blanco y efecto de hover para subrayar y cambiar el color al pasar el ratón*/
+/* en este header menu de cambia el menu de acerca etc,  cambios de color, cosicion tamaño*/
+header.menu a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+
+}
+header .menu a:hover {
+    text-decoration: underline;
+    color: white; 
+  
+}
+/* en esta etiqueta cambiamos el color tamaño y letra del textp*/
+header .texto{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    margin-top: -52px;
+}
+/*ajustamos el grosor de la letra del texto del encabezado*/
+header .texto .nombre{
+    font-size: 50px;
+    font-weight: 600;
+}
+/* aqui ocurre que la letra de h1 puede colocarse con "negrilla" */
+header .texto .nombre span {
+    font-weight: 50;
+}
+header .texto h3{
+    font-weight: 50;
+    font-size: 100px;
+    font-style:inherit;
+}
+/*------------------------------------------------------------------*/
+/*------------------damos orden al ARTICLE colocando el texto justificado, creando una tarjeta para que sea mas visible--------------*/
+/* DAREMOS ESTILO A LA CLASE CONTENEDOR*/
+/*.contenedor: Define un contenedor con un ancho máximo de 1000px*/
+.contenedor
+{
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(129, 124, 124, 0.008);
+    margin: auto;
+    overflow: hidden;
+}
+.acerca-de{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+/* Párrafos */
+p.acerca-de  {
+    line-height: 1.6;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+/* Imágenes del formato */
+.acerca-de img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+/*---------------------------------------------------------------------------------*/
+/**.main{
+     background: url('../logos/l6.png');
+     background-repeat: repeat;
+
+}**/
+/*.main .acerca-de .contenedor{
+    overflow: visible;
+    position: relative;
+}*/
+/**.main .acerca-de .foto {
+    width: 100%0;
+    position: absolute;
+    left: 300;
+    top: 50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.35);
+
+}**/
+/*.main .acerca-de.foto img{
+    vertical-align: top;
+    width: 100%;
+}
+.main.acerca-de.article {
+    background: black;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 500px;
+
+    z-index: 1;
+    float: right;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.923);
+
+}*/
+
+/** la etiqueta de equipo nos hara que la informacion de cada equipo se agrupe dentro de una tarjeta */
+.equipo {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    justify-content: center;
+}
+
+/* Estilos para textos */
+.nombre-equipo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a237e;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.categoria {
+    font-size: 14px;
+    color: #ff5722;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .tabla-titulos th, .tabla-titulos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+  .tabla-titulos th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.tabla-titulos td {
+    font-size: 14px;
+}
+  /* Nombre del equipo */
+.team {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a237e;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* Info básica */
+.city {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  .coach {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  .sede {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  .titulos {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  /* Tabla de títulos */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .table th {
+    background-color: #eeeeee;
+    font-weight: bold;
+  }
+  /*--------------------------------horarios de juego-------------------*/
+  /* Estilo para las tablas */
+.tabla-partido {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+.ecabezado{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff5722;
+    font-weight: bold;
+}
+.fecha, .partido {
+    border: 1px solid #1a237e;
+    padding: 10px;
+    text-align: center;
+}
+.fecha-titulo {
+    color:#ff5722;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subtitulo {
+    color: #555;
+    font-size: 16px;
+}
+.fechas {
+    margin: 20px;
+}
+.partidos {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+/*---------------------------------tabla de resultados-----------------------------------------*/
+/* Estilo general para la tabla de posiciones */
+.tabla-posiciones {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+.titulo-tabla {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.tabla-contenedor {
+    overflow-x: auto;
+}
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tabla th, .tabla td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.puntos {
+    color: #e74c3c;
+    font-weight: bold;
+}
+/*----------------------------logos--------------------*/
+.logo {
+    flex: 1 1 150px;  /* Permite que los logos crezcan o se encojan */
+    text-align: center;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+/*
+background:
+
+Propósito: Controla el fondo de un elemento. Se puede usar para añadir colores, imágenes o patrones como fondo
+text-align:
+
+Propósito: Define la alineación horizontal del texto dentro de un contenedor. Po
+
+position:
+
+Propósito: Controla cómo se posicionan los elementos en relación con su contenedor o página. Con valores como absolute, relative, fixed, o sticky,
+
+
+margin y padding:
+
+Propósito: Ambos se usan para agregar espacio alrededor de los elementos.
+
+hover:
+
+Propósito: Define un estilo que se aplica cuando un usuario pasa el mouse sobre un elemento.
+
+font-size, font-weight, font-family:
+
+Propósito: Estas propiedades controlan el tamaño, el peso (negrita, normal) y la familia de la fuente que se usa para el texto.
+
+
+box-sizing:
+
+Propósito: Controla cómo se calcula el tamaño total de un elemento. Por defecto, el width y height solo se refieren al contenido del elemento,
+
+border-radius:
+
+Propósito: Redondea las esquinas de los elementos. Esto se usa para darle un estilo más suave y moderno.
+
+z-index:
+
+Propósito: Controla el apilamiento de los elementos en el eje Z. Los elementos con mayor z-index aparecerán encima de los que tienen un valor más bajo.
+
+overflow:
+
+Propósito: Define qué sucede cuando el contenido de un elemento es demasiado grande para su contenedor.
+
+
+*/

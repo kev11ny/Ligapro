@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="" content= "width=device-width, initial-scale=1 .8, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+        <title>LIGAPRO</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+    
+    </head>
+    <body>
+        <!--colocamos un heder, este sera la cabecera donde se tendra botones como acerca de, informacion, fechas, resultados -->
+        <header>
+         <div class="contenedor">
+             <!--el div es concontenedo esto se coloca para que la informacion de la cabecera se agrupe-->
+             <nav class="menu">
+                 <!--la etique nav nos permite agrupar los enlaces en este caso a posee los enlaces de los botones acerca de, informacion, fechas, resultados-->
+                 <a href="#" id="btn-acerca-de">Acerca de</a>
+                 <a href="#" id="btn-equipos">Equipos</a>
+                 <a href="#" id="btn-fechas">Fechas</a>
+                 <a href="#" id="btn-resultados">Resultados</a>
+             </nav>
+        
+              <div class="texto">
+                   <!--dentro de este contenedo agregaremos el nombre de LIGAPRO-->
+                  <h1 class="nombre">LIGAPRO<span> Ecuador</span></h1>
+                  <h3> Aqui jugamos TODOS </h3>
+             </div>
+         </div>
+     </header> 
+<!--COLOCAREMOS LA INFORMACION REFERENTE A: ACERCA DE-->
+<!--PARA ESTA SECCION COLOCAREMOS UNA SECCION DENTRO DE OTRA SECCION PARA SU MEOR ORGANIZACION-->
+<section class="main">
+ <section class="acerca-de" id="acerca-de">
+      <div class="contenedor">
+           <div class="foto">
+              <!--COLOCARESMOES UN FONDO AZUL -->
+              <img src="logos/LOGO SERIE A.png" alt="logo LigaPro">
+           </div>
+     </div>
+     <!--COLOCAREMOS UN ARTICLE ESTE NOS PERMITIRA COLOCAR INFORMACION DE LOS CONTENEDORES DEL HEADER-->
+     <article>
+         <h3>Acerca de</h3>
+         <!--COLOCAREMOSTEXTO HACIENDO REFERENCIA A LA LIGA PRO ECUADOR-->
+         <P>
+            La Liga Profesional de Fútbol del Ecuador, conocida como LigaPro, es la entidad encargada de organizar y gestionar los campeonatos de fútbol profesional en Ecuador. 
+            Fue fundada en 2018 con el objetivo de modernizar la estructura del fútbol ecuatoriano y brindar una gestión más profesional y autónoma a los torneos de 
+            Primera División: Serie A y Serie B. Desde su creación, la LigaPro ha trabajado en mejorar la calidad del espectáculo, fortalecer la marca del fútbol ecuatoriano y 
+            asegurar un manejo financiero más transparente para los clubes. Cada temporada, los equipos compiten por el título nacional y por clasificaciones a torneos internacionales 
+            como la Copa Libertadores y la Copa Sudamericana.
+         </P>
+         <p>
+             La LigaPro no solo promueve la competencia deportiva, sino también el desarrollo del talento joven, la mejora de infraestructuras y la implementación de tecnologías como
+             el VAR para garantizar la justicia en el juego.
+         </p>
+         <h3>Formato</h3>
+         <p>
+            Se jugará una fase inicial en partidos de ida y vuelta, todos contra todos (30 fechas), y luego habrá una fase final con dos hexagonales y un cuadrangular.
+            por lo que asi se dividira:
+         </p>    
+          <p>El primer hexagonal lo disputarán los equipos que terminaron entre el primer y el sexto lugar en la fase inicial y el que gane este hexagonal, será el campeón de la LigaPro.</p>
+          <img src="logos/f1.png" alt="hexagonal 1">
+          <p>El segundo hexagonal lo conformarán los equipos que terminaron entre el puesto 7 y el 12 de la fase inicial, el ganador se llevará el último cupo disponible para la Copa Sudamericana.</p>
+          <img src="logos/f2.png" alt="hexagonal 2">
+          <p>Y el cuadrangular lo disputarán los equipos que terminaron entre el puesto 13 al 16 en la fase inicial, los dos equipos que terminen últimos perderán la categoría y descenderán a la Serie B. </p>
+          <img src="logos/f3.png" alt="cuadrangular ">
+        </article>
+   </section>
+</section>
+<!--AQUI EMPIEZA LA INFORMACION CONTENDRA INFORMACION SOBRE LOS EQUIPOS DE LA SERIE A 2025-->
+<section class="menu">
+    <div class="contenedor">
+        <h3 id="equipos">Equipos</h3>
+        <div class="contenedor-menu">
+            <div class="contenedor-menu2">
+                <article>
+                    <div class="equipo aucas" >
+                     <p class="categoria"> SERIE A</p>
+                     <div class="informacion">
+                         <p class="team"><span>Sociedad Deportiva Aucas</span></p>
+                         <p class="city"> Cuiudad: Quito </p>
+                         <p class="coach"> Entrenador: Gabriel Pereyra</p>
+                         <p class="sede"> Estadio: Gonzalo Pozo Ripalda</p>
+                         <p class="titulos"> Titulos: </p>
+                         <table class="tabla-titulos">
+                             <thead>
+                                 <th>SERIE A</th>
+                                 <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td>2022</td>
+                                     <td>1974,1991,2014</td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                        </div>
+                    </div>
+                    <div class="equipo bsc">
+                        <p class="team"><span> Barcelona Sporting Club</span></p>
+                        <p class="city"> Cuiudad: Guayaquil </p>
+                        <p class="coach"> Entrenador: Segundo Castillo</p>
+                        <p class="sede"> Estadio: Monumental</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td>1960,1963,1966,1970,1971,1980,1981,1985,1987,1989,1991,1995,1997,2012,2016,,2020</td>
+                                    <td> no registra</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo delf">
+                        <p class="team"><span> Delfin Sporting Club</span></p>
+                        <p class="city"> Cuiudad: Manta </p>
+                        <p class="coach"> Entrenador: Nicolas Chietino</p>
+                        <p class="sede"> Estadio: Jocay</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td>2019</td>
+                                    <td> no registra</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo cue">
+                        <p class="team"><span> Club Deportivo Cuenca</span></p>
+                        <p class="city"> Cuiudad: Cuenca </p>
+                        <p class="coach"> Entrenador:  Noberto Araujo</p>
+                        <p class="sede"> Estadio: Alejandro Serrano Aguilar  </p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td>2004</td>
+                                    <td> 1973,1996</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo nac">
+                        <p class="team"><span> Club Deportivo El Nacional</span></p>
+                        <p class="city"> Cuiudad: Quito </p>
+                        <p class="coach"> Entrenador:  Omar Asad</p>
+                        <p class="sede"> Estadio: Olímpico Atahualpa</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> 1967, 1973, 1976, 1977, 1978, 1982, 1983, 1984, 1986, 1992, 1996, 2005, 2006</td>
+                                    <td> 1970, 2024</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo eme">
+                        <p class="team"><span> Club Sport Emelec</span></p>
+                        <p class="city"> Cuiudad: Guayaquil </p>
+                        <p class="coach"> Entrenador:  Jorge Celico</p>
+                        <p class="sede"> Estadio: George Capwell</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> 1957, 1961, 1965, 1972, 1979, 1988, 1993, 1994, 2001, 2002, 2013, 2014, 2015, 2017</td>
+                                    <td> no registra</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo idv">
+                        <p class="team"><span> Club Independiente del Valle</span></p>
+                        <p class="city"> Cuiudad: Sangolqui </p>
+                        <p class="coach"> Entrenador:  Javier Rabanal</p>
+                        <p class="sede"> Estadio: Banco Guayaquil</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> 2021</td>
+                                    <td> 2009</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo lib">
+                        <p class="team"><span> Libertad Futbol CLub</span></p>
+                        <p class="city"> Cuiudad: Loja </p>
+                        <p class="coach"> Entrenador:  Juan Carlos Leon</p>
+                        <p class="sede"> Estadio: Rein del cisne</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 2021</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo ldu">
+                        <p class="team"><span> Liga Deportiva Universitaria</span></p>
+                        <p class="city"> Cuiudad: Quito </p>
+                        <p class="coach"> Entrenador:  Pablo Sanchez</p>
+                        <p class="sede"> Estadio: Rodrigo Paz Delgado</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> 1969, 1974, 1975, 1990, 1998, 1999, 2003, 2005, 2007, 2010, 2018,2023,2024</td>
+                                    <td> 1973, 1981, 2001, 2004</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo mac">
+                        <p class="team"><span> Club Deportivo Macara</span></p>
+                        <p class="city"> Cuiudad: Ambato </p>
+                        <p class="coach"> Entrenador:  Pablo Alex Pallares </p>
+                        <p class="sede"> Estadio: Bellavista</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 1971, 1980, 2005,2024</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo man">
+                        <p class="team"><span> Manta Futbol Club</span></p>
+                        <p class="city"> Cuiudad: Manta </p>
+                        <p class="coach"> Entrenador:  Efren Mera</p>
+                        <p class="sede"> Estadio: Jocay</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 2008, 2020</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo runa">
+                        <p class="team"><span> Mushuc Runa Sporting Club</span></p>
+                        <p class="city"> Cuiudad: Ambato </p>
+                        <p class="coach"> Entrenador:  Ever Hugo Almeida</p>
+                        <p class="sede"> Estadio: Olimpico Fernando Guerrero</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 2011</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo cat">
+                        <p class="team"><span> Universidad Ctolica del Ecuador</span></p>
+                        <p class="city"> Cuiudad: Quito </p>
+                        <p class="coach"> Entrenador:  Igor Oca</p>
+                        <p class="sede"> Estadio: Olimpico Atahualpa</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 1990</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo tec">
+                        <p class="team"><span> Tecnico Universitario</span></p>
+                        <p class="city"> Cuiudad: Ambato </p>
+                        <p class="coach"> Entrenador:  Patricio Hurtado</p>
+                        <p class="sede"> Estadio: Bellavista</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 1978, 1980</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo ore">
+                        <p class="team"><span> Orense Sporting Club</span></p>
+                        <p class="city"> Cuiudad: Machala </p>
+                        <p class="coach"> Entrenador:  Raul Antuña</p>
+                        <p class="sede"> Estadio: Olimpico Atahualpa</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 2019</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+                    <div class="equipo vino">
+                        <p class="team"><span> Vinotinto del Ecuador Futbol Club</span></p>
+                        <p class="city"> Cuiudad: Quito </p>
+                        <p class="coach"> Entrenador:  Juan Grabowski</p>
+                        <p class="sede"> Estadio: Olimpico Atahualpa</p>
+                        <p class="titulos"> Titulos: </p>
+                        <table class="tabla-titulos">
+                             <thead>
+                                <th>SERIE A</th>
+                                <th>SERIE B</th>
+                             </thead>
+                             <tbody>
+                                <tr>
+                                    <td> no registra</td>
+                                    <td> 2024</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </div>
+
+
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!--FIN EQUIPOS-->
+<!--INICIO FECHAS DE  LOS PARTIDOS-->
+<!--LAS FECHAS SOLO CORRESPONDEN AL MES DE ABRIL QUE APROXIMADAMENTE SERIAN FECHAS DE JUEGO 8 Y 9-->
+<section class="fechas">
+    <div class="contenedor">
+        <h3 class="titulo-fechas">FECHAS</h3>
+        <div class="seccion-fechas">
+            <div class="contenido-fechas">
+                <article >
+                    <p class="subtitulo">HORARIOS DE JUEGO</p>
+                    <h3 class="fecha-titulo">Fecha 8 </h3>
+                    <table class="tabla-partidos">
+                        <thead>
+                            <th class="encabezado">Fecha</th>
+                            <th class="encabezado">Partido</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">9 de Abril</td>
+                                <td class="partido">Vinotinto <span>V</span> Delfin</td>
+                                
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">10 de abril</td>
+                                <td class="partido">Macara <span>V</span> Deportivo Cuenca </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">10 de abril</td>
+                                <td class="partido">Manta <span>V</span> Tecnico Universitario </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">11 de abril</td>
+                                <td class="partido">Emelec <span>V</span> Libertad </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">14 de abril</td>
+                                <td class="partido">Mushuc Runa <span>V</span> Liga de Quito </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">14 de abril</td>
+                                <td class="partido">El Nacional <span>V</span> Independiente del Valle </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">14 de abril</td>
+                                <td class="partido">Orense <span>V</span> Barcelona </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">15 de abril</td>
+                                <td class="partido">Aucas <span>V</span> Universidad Catolica </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+    
+                    <h3 class="fecha-titulo">Fecha 9 </h3>
+                    <table>
+                        <thead>
+                            <th class="fecha">Fecha</th>
+                            <th class="partido">Partido</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">18 de Abril</td>
+                                <td class="partido">Liga de Quito <span>V</span> Auucas</td>
+                                
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">18 de abril</td>
+                                <td class="partido">Barcelona <span>V</span> El Nacional </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">19 de abril</td>
+                                <td class="partido">Libertad <span>V</span> Mushuc Runa </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">19 de abril</td>
+                                <td class="partido">Deportivo Cuenca <span>V</span> Emelec </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">19 de abril</td>
+                                <td class="partido">Independiente del Valle <span>V</span> Manta </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">20 de abril</td>
+                                <td class="partido">Tecnico Universitario <span>V</span> Vinotinto </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">20 de abril</td>
+                                <td class="partido"> Universidad Catolica <span>V</span> Orense </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="fecha">21 de abril</td>
+                                <td class="partido">Delfin <span>V</span> Macara </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Procederemos a colocar la tabla de resultados hasta la ultima fecha jugada-->
+<section class="tabla-posiciones">
+    <div class="contenedor">
+        <h3 class="titulo.tabla">TABLA DE POSICIONES </h3>
+        <div class="contenedor">
+            <table class="tabla">
+                <thead>
+                    <th class="columna">N°</th>
+                    <th class="columna">EQUIPO</th>
+                    <th class="columna">PJ</th>
+                    <th class="columna">PG</th>
+                    <th class="columna">PE</th>
+                    <th class="columna">PP</th>
+                    <th class="columna">+/-</th>
+                    <th class="columna">PTS</th>
+                    <tbody>
+                    <tr>
+                        <td class="numero">1</td>
+                        <td class="equipo">VINOTINTO</td>
+                        <td class="partidos-jugados">8</td>
+                        <td class="ganados">4</td>
+                        <td  class="empatados">3</td>
+                        <td class="perdidos">1</td>
+                        <td class="diferencia-goles">7</td>
+                        <td class="puntos">15</td>
+                    </tr>
+                </tbody>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="numero">2</td>
+                        <td class="equipo">BARCELONA</td>
+                        <td class="partidos-jugados">6</td>
+                        <td class="ganados">5</td>         
+                        <td  class="empatados">0</td>        
+                        <td class="perdidos">1</td>           
+                        <td class="diferencia-goles">4</td>    
+                        <td class="puntos">15</td>      
+                        
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">3</td>
+                        <td class="equipo">CATOLICA</td>
+                        <td class="partidos-jugados"> 7</td>    
+                        <td class="ganados">3</td>             
+                        <td  class="empatados">3</td>         
+                        <td class="perdidos">1</td>            
+                        <td class="diferencia-goles">7</td>     
+                        <td class="puntos">12</td>     
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">4</td>
+                        <td class="equipo">INDEPENDIRNTE</td>
+                        <td class="partidos-jugados">7</td>     
+                            <td class="ganados"> 3</td>             
+                            <td  class="empatados">3</td>          
+                            <td class="perdidos"> 1</td>         
+                            <td class="diferencia-goles">7</td>      
+                            <td class="puntos">12</td>       
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">5</td>
+                        <td class="equipo">LIGA</td>
+                        <td class="partidos-jugados">7</td>     
+                            <td class="ganados">3</td>             
+                            <td  class="empatados">2</td>         
+                            <td class="perdidos">1</td>           
+                            <td class="diferencia-goles">7</td>   
+                            <td class="puntos">11</td>    
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">6</td>
+                        <td class="equipo">LIBERTAD</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">  7</td>            
+                            <td  class="empatados"> 3</td>        
+                            <td class="perdidos">2</td>             
+                            <td class="diferencia-goles">1</td>   
+                            <td class="puntos">11</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">7</td>
+                        <td class="equipo">ORENSE</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">3</td>            
+                            <td  class="empatados">1</td>          
+                            <td class="perdidos">3</td>          
+                            <td class="diferencia-goles">-5</td>    
+                            <td class="puntos">10</td>
+                       
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">8</td>
+                        <td class="equipo">MUSHUC RUNA</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados"> 2</td>             
+                            <td  class="empatados">3</td>         
+                            <td class="perdidos">2</td>             
+                            <td class="diferencia-goles">2</td>     
+                            <td class="puntos">9</td>
+                        
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">9</td>
+                        <td class="equipo">AUCAS</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">2</td>              
+                            <td  class="empatados"> 3</td>         
+                            <td class="perdidos"> 2</td>            
+                            <td class="diferencia-goles">1</td>     
+                            <td class="puntos">9</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">10</td>
+                        <td class="equipo">MACARA</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados"> 2</td>             
+                            <td  class="empatados">3</td>          
+                            <td class="perdidos"> 2</td>            
+                            <td class="diferencia-goles">0</td>     
+                            <td class="puntos">9</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">11</td>
+                        <td class="equipo">DEP. CUENCA</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados"> 2</td>             
+                            <td  class="empatados">1</td>          
+                            <td class="perdidos"> 4</td>            
+                            <td class="diferencia-goles"> -5</td>    
+                            <td class="puntos">7</td>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">12</td>
+                        <td class="equipo">MANTA</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">1</td>              
+                            <td  class="empatados">3</td>          
+                            <td class="perdidos">3</td>             
+                            <td class="diferencia-goles">-4</td>     
+                            <td class="puntos">6</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">13</td>
+                        <td class="equipo">T. UNIVERSITARIO</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">1</td>              
+                            <td  class="empatados">3</td>          
+                            <td class="perdidos">3</td>             
+                            <td class="diferencia-goles">-4</td>     
+                            <td class="puntos">6</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">14</td>
+                        <td class="equipo">EMELEC</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">1</td>              
+                            <td  class="empatados">3</td>          
+                            <td class="perdidos">3</td>             
+                            <td class="diferencia-goles">-6</td>     
+                            <td class="puntos">6</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">15</td>
+                        <td class="equipo">DELFIN</td>
+                        <td class="partidos-jugados">8</td>
+                        <td class="ganados">1</td>              
+                            <td  class="empatados">3</td>          
+                            <td class="perdidos">4</td>             
+                            <td class="diferencia-goles">-10</td>     
+                            <td class="puntos">6</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td class="numero">16</td>
+                        <td class="equipo">NACIONAL</td>
+                        <td class="partidos-jugados">7</td>
+                        <td class="ganados">1</td>              
+                            <td  class="empatados">2</td>          
+                            <td class="perdidos">4</td>             
+                            <td class="diferencia-goles">-2</td>     
+                            <td class="puntos">5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!--SE COLOCARA LAS IMAGENES DE CADA EQUIPO-->
+<section>
+    <div class="logo">
+        <img src="logos/SDA.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/BSC.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/CATOLICA.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/IDV.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/LDU.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/libertad.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/ORENSE.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/mushuc2.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/MACARA.png" alt="">
+    </div>
+    <div >
+    <div class="logo">
+        <img src="logos/CSE.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/DCUENCA.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/manta.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/TUNIVERSITARIO.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/Logotipo-El-Nacional.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/DSC.png" alt="">
+    </div>
+    <div class="logo">
+        <img src="logos/vinotintoA.png" alt="">
+    </div>
+</section>
+
+<!--COLOCAMOS UN COMO "PIE DE PAGINA" CON LOS REGISTROS DE COPYRIGTH-->
+<footer>
+    <div class="contenedor">
+         <div class="copyrigth">
+             <p>&COPY; Todos los derechos reservados KY 2024 </p>
+         </div>
+    </div>
+</footer>
+
+    </body>
+</html>
